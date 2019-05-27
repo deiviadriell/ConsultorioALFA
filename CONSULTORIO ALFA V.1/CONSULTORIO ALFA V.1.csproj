@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3591B4AC-98A0-4E89-B7D9-E90DF2307465}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CONSULTORIO_ALFA_V._1</RootNamespace>
+    <AssemblyName>CONSULTORIO ALFA V.1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hospital%281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\David\Downloads\DevComponents.DotNetBar2\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Dlls MySQL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\..\Dlls MySQL\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\Dlls MySQL\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="ControlDataGridView.cs" />
+    <Compile Include="DataGridViewPrinter.cs" />
+    <Compile Include="Fecha.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFichaMedica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFichaMedica.Designer.cs">
+      <DependentUpon>frmFichaMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestas.Designer.cs">
+      <DependentUpon>frmGestas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObtenerFoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObtenerFoto.Designer.cs">
+      <DependentUpon>frmObtenerFoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSepararCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSepararCitas.Designer.cs">
+      <DependentUpon>frmSepararCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_acercaDe.Designer.cs">
+      <DependentUpon>frm_acercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_buscarpaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_buscarpaciente.Designer.cs">
+      <DependentUpon>frm_buscarpaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consulta.Designer.cs">
+      <DependentUpon>frm_consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_contactenos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_contactenos.Designer.cs">
+      <DependentUpon>frm_contactenos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editarconsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editarconsulta.Designer.cs">
+      <DependentUpon>frm_editarconsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editarPaciente.Designer.cs">
+      <DependentUpon>frm_editarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editarUsuario.Designer.cs">
+      <DependentUpon>frm_editarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_historiaclinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_historiaclinica.Designer.cs">
+      <DependentUpon>frm_historiaclinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nuevoPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nuevoPaciente.Designer.cs">
+      <DependentUpon>frm_nuevoPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_principal.Designer.cs">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_registrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_registrarUsuario.Designer.cs">
+      <DependentUpon>frm_registrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TinyMCE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TinyMCE.Designer.cs">
+      <DependentUpon>TinyMCE.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFichaMedica.resx">
+      <DependentUpon>frmFichaMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestas.resx">
+      <DependentUpon>frmGestas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObtenerFoto.resx">
+      <DependentUpon>frmObtenerFoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_acercaDe.resx">
+      <DependentUpon>frm_acercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_buscarpaciente.resx">
+      <DependentUpon>frm_buscarpaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_consulta.resx">
+      <DependentUpon>frm_consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_contactenos.resx">
+      <DependentUpon>frm_contactenos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editarconsulta.resx">
+      <DependentUpon>frm_editarconsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editarPaciente.resx">
+      <DependentUpon>frm_editarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editarUsuario.resx">
+      <DependentUpon>frm_editarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_historiaclinica.resx">
+      <DependentUpon>frm_historiaclinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_nuevoPaciente.resx">
+      <DependentUpon>frm_nuevoPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_principal.resx">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_registrarUsuario.resx">
+      <DependentUpon>frm_registrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TinyMCE.resx">
+      <DependentUpon>TinyMCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CkEditor\toolbarconfigurator\font\config.json" />
+    <None Include="Resources\CkEditor\toolbarconfigurator\font\fontello.eot" />
+    <None Include="Resources\CkEditor\toolbarconfigurator\font\fontello.ttf" />
+    <None Include="Resources\CkEditor\toolbarconfigurator\font\fontello.woff" />
+    <None Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <None Include="Resources\pluma--fondo-blanco--estudiante-de-medicina--salud_3309347.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la-medicina--la-textura--la-presion--azul-de-fondo_3199585.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicina-fondo-azul-adn-652x290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000019367294Medium1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000019367294Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000019367294Medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient_2561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_pdf1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justogems_file_p82_contactenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skype.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_Gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atomo Abstracto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\social-facebook-box-blue-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter-free-hq-buttons-icons-psd-photoshop-vector-illustrator-bird-017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aceKAnqBi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents_folder_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder_Documentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documento1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-documents-29332.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-04.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen-animada-Farmaco-27.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People-Patient-Male-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sc3admbolo-de-la-medicina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medico-icono-mujer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient_icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hospital%281%29.ico" />
+    <Content Include="Resources\CkEditor\adapters\jquery.js" />
+    <Content Include="Resources\CkEditor\ckeditor.js" />
+    <Content Include="Resources\CkEditor\config.js" />
+    <Content Include="Resources\CkEditor\contents.css" />
+    <Content Include="Resources\CkEditor\css\samples.css" />
+    <Content Include="Resources\CkEditor\index.html" />
+    <Content Include="Resources\CkEditor\lang\en.js" />
+    <Content Include="Resources\CkEditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Resources\CkEditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="Resources\CkEditor\plugins\about\dialogs\about.js" />
+    <Content Include="Resources\CkEditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="Resources\CkEditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Resources\CkEditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Resources\CkEditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Resources\CkEditor\plugins\icons.png" />
+    <Content Include="Resources\CkEditor\plugins\icons_hidpi.png" />
+    <Content Include="Resources\CkEditor\plugins\image\dialogs\image.js" />
+    <Content Include="Resources\CkEditor\plugins\image\images\noimage.png" />
+    <Content Include="Resources\CkEditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Resources\CkEditor\plugins\link\dialogs\link.js" />
+    <Content Include="Resources\CkEditor\plugins\link\images\anchor.png" />
+    <Content Include="Resources\CkEditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="Resources\CkEditor\plugins\magicline\images\hidpi\icon-rtl.png" />
+    <Content Include="Resources\CkEditor\plugins\magicline\images\hidpi\icon.png" />
+    <Content Include="Resources\CkEditor\plugins\magicline\images\icon-rtl.png" />
+    <Content Include="Resources\CkEditor\plugins\magicline\images\icon.png" />
+    <Content Include="Resources\CkEditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Resources\CkEditor\plugins\scayt\dialogs\dialog.css" />
+    <Content Include="Resources\CkEditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Resources\CkEditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Resources\CkEditor\plugins\scayt\skins\moono-lisa\scayt.css" />
+    <Content Include="Resources\CkEditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="Resources\CkEditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Resources\CkEditor\plugins\tableselection\styles\tableselection.css" />
+    <Content Include="Resources\CkEditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Resources\CkEditor\plugins\table\dialogs\table.js" />
+    <Content Include="Resources\CkEditor\plugins\widget\images\handle.png" />
+    <Content Include="Resources\CkEditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Resources\CkEditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Resources\CkEditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Resources\CkEditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Resources\CkEditor\plugins\wsc\dialogs\wsc_ie.js" />
+    <Content Include="Resources\CkEditor\plugins\wsc\skins\moono-lisa\wsc.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\dialog.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\dialog_ie.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\dialog_ie8.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\dialog_iequirks.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\editor.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\editor_gecko.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\editor_ie.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\editor_ie8.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\editor_iequirks.css" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\icons.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\icons_hidpi.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\arrow.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\close.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\hidpi\close.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\hidpi\lock-open.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\hidpi\lock.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\hidpi\refresh.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\lock-open.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\lock.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\refresh.png" />
+    <Content Include="Resources\CkEditor\skins\moono-lisa\images\spinner.gif" />
+    <Content Include="Resources\CkEditor\styles.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\css\fontello.css" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\index.html" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="Resources\CkEditor\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <None Include="Resources\NoDisponible.jpg" />
+    <None Include="Resources\f02a62985cde.png" />
+    <None Include="Resources\remove_male_user_98400.jpg" />
+    <None Include="Resources\editar1.png" />
+    <None Include="Resources\nuevo usuario1.png" />
+    <None Include="Resources\nuevo usuario.png" />
+    <None Include="Resources\DefaultUser.png" />
+    <None Include="Resources\nuevo.png" />
+    <None Include="Resources\aceptar[1].png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
