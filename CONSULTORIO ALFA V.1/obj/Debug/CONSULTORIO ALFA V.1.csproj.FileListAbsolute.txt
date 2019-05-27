@@ -1,0 +1,57 @@
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Form1.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_buscarpaciente.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_consulta.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarConsulta.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_historiaclinica.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_login.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_nuevoPaciente.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Properties.Resources.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csproj.GenerateResource.Cache
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_contactenos.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarPaciente.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_acercaDe.resources
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csprojResolveAssemblyReference.cache
+C:\Users\DEIVI\Documents\Visual Studio 2012\Projects\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_principal.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csprojResolveAssemblyReference.cache
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Form1.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_acercaDe.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_buscarpaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_consulta.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_contactenos.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarconsulta.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarPaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_historiaclinica.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_login.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_nuevoPaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_principal.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Properties.Resources.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Instalador\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csproj.GenerateResource.Cache
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csprojResolveAssemblyReference.cache
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Form1.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_acercaDe.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_buscarpaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_consulta.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_contactenos.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarconsulta.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_editarPaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_historiaclinica.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_login.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_nuevoPaciente.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.frm_principal.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO_ALFA_V._1.Properties.Resources.resources
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\obj\Debug\CONSULTORIO ALFA V.1.csproj.GenerateResource.Cache
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.exe
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\CONSULTORIO ALFA V.1.pdb
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\MySql.Data.dll
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\MySql.Data.Entity.dll
+C:\Users\DEIVI\Desktop\Consultorio Alfa Final\Aplicacion\CONSULTORIO ALFA V.1\CONSULTORIO ALFA V.1\bin\Debug\MySql.Web.dll
